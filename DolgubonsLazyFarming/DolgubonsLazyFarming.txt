@@ -9,7 +9,7 @@
 ## Author: Dolgubon
 ## Version: 2.2.6.N1
 ## SavedVariables: dolgubonsfarmingvars
-## OptionalDependsOn: MasterMerchant LibStub LibFeedback LibPrice
+## OptionalDependsOn: MasterMerchant LibFeedback LibPrice
 
 Farming.xml
 Farming.lua
