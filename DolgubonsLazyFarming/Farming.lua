@@ -58,6 +58,7 @@ local function saveBag ()
 	DolgubonFarming.savedVars.craftBag = craftBag
 	DolgubonFarming.savedVars.saved = true
 	DolgubonFarming.savedVars.retrievedItems = {}
+	DolgubonFarming.savedVars.startTime = GetTimeStamp()
 	out("Craft bag has been saved. While it will work without doing so,\nit is suggested that you /reloadui, and back up the saved variables file.")
 end
 
@@ -179,6 +180,10 @@ local function endFarming (withdrawItems)
 	else
 		d("Dolgubon's Lazy Farmer has retrieved or listed all items.")
 	end
+	local currentTime = GetTimeStamp()
+	local timeFarming = currentTime - DolgubonFarming.savedVars.startTime
+	d("Your farm took "..math.floor(timeFarming/3600).." hours "..math.floor((timeFarming%3600)/60).." minutes and "..(timeFarming%60).." seconds")
+
 	total = 0
 
 end
