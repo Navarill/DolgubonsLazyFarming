@@ -4,8 +4,8 @@
 ; States and/or other countries. All rights reserved.
 ; You can read the full terms at https://account.elderscrollsonline.com/add-on-terms
 
-## Title: Dolgubon's Farming Slave Tools v2.2.7.N1
-## APIVersion: 101038 101039
+## Title: Dolgubon's Farming Slave Tools v2.2.7
+## APIVersion: 101040
 ## Author: Dolgubon
 ## Version: 2.2.7
 ## SavedVariables: dolgubonsfarmingvars
